@@ -1,21 +1,22 @@
 <?php
-	$pageTitle = 'Home';
+
+	// Page title
+	$pageTitle = 'Project Title : Home';
+
+	// Page class for css use
 	$pageClass = 'home';
+
+	// Require header
+	require_once('includes/header.php');
+
+	// Notice that the </head> remains below, this is so you can add your own per-page based head declarations (js, etc)
+
 ?>
-<!DOCTYPE html> 
-<html lang="en-us">
-<head>
-	<meta charset="utf-8">
-	<title><?php echo $pageTitle; ?></title>
-	<link rel="stylesheet" href="css/reset.css" /> 
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/style.css" /> 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" />
-	<script src="js/app.js" />
-</head> 
+
+</head>
 <body class="<?php echo $pageTitle; ?>">
 	<div id="content">
-		
+		NutsNBolts.
 	</div>
 </body>
 </html>
