@@ -14,7 +14,7 @@
 ?>
 
 </head>
-<body class="<?php echo $pageTitle; ?>">
+<body class="<?php echo $pageClass; ?>">
 	<div id="content">
 		NutsNBolts.
 	</div>
